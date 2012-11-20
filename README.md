@@ -4,6 +4,16 @@ regexen
 Function To Generate Strings Based On Regex Patterns
 
 
+##Example:
+```php
+<?php
+include_once 'regexen.php';
+
+echo regex_gen( "[A-Za-z0-9]+", 24);
+```
+
+##Example Output:
+
 MTc1ZDdm
 
 24314708
